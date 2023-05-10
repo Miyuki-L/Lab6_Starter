@@ -46,8 +46,6 @@ function addRecipesToDocument(recipes) {
     recipeEl.data = recipes[i];
 
     mainEl.appendChild(recipeEl);
-    console.log(recipes[i]);
-    console.log(i);
   }
 }
 
